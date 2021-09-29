@@ -34,4 +34,4 @@ bot = Bot(
     plugins=dict(root="DaisyXMusic.modules"),
 )
 
-bot.start()
+bot.run()
