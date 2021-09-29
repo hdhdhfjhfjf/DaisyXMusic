@@ -27,7 +27,7 @@ class Messages:
 ⚪️ {PROJECT_NAME} Can Play Music In Your Group's Voice Chat As Well As Channel Voice Chats
 
 ⚪️ Assistant Name >> @{ASSISTANT_NAME}\n\nClick Next For Instructions**
-        """,
+        """
         f"""
 **Setting Up**
 
@@ -40,7 +40,7 @@ class Messages:
 1) Make Me Admin Of Your Channel 
 2) Send /userbotjoinchannel In Linked Group
 3) Now Send Commands In Linked Group
-        """,
+        """
         f"""
 **Commands**
 
@@ -65,7 +65,7 @@ class Messages:
 - /playlist: Shows Playlist
 
 *Player Cmd And All Other Cmds Except /play, /current And /playlist Are Only For Admins Of The Group.
-        """,
+        """
         f"""
 **=>> Channel Music Play 🛠**
 
@@ -94,14 +94,14 @@ Channel Is Also Can Be Used Instead OF C ( /cplay = /channelplay )
 3) Add Bot As Channel Admin With Full Perms
 4) Add @{ASSISTANT_NAME} To The Channel As An Admin.
 5) Simply Send Commands In Your Group. (Remember To Use /ytplay Instead /play)
-        """,
+        """
         f"""
 **=>> More Tools 🧑‍🔧**
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates Admin Info OF Your Group. Try If Bot Isn't Recognize Admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot To Your Chat
-        """,
+        """
         f"""
 **=>> Song Download 🎸**
 
@@ -114,7 +114,7 @@ Channel Is Also Can Be Used Instead OF C ( /cplay = /channelplay )
 
 - /search [Song Name]: Search Youtube For Songs
 - /lyrics [Song Name]: Get Song Lyrics
-        """,
+        """
         f"""
 **=>> Commands For Sudo Users ⚔️**
 
@@ -123,5 +123,5 @@ Channel Is Also Can Be Used Instead OF C ( /cplay = /channelplay )
  - /pmpermit [on/off] - Enable/Disable PMPermit Message
 *Sudo Users Can Execute Any Command In Any Groups
 
-        """,
+        """
     ]
