@@ -35,4 +35,4 @@ bot = Bot(
 )
 
 bot.start()
-run()
+bot.run()
