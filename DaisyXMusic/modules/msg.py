@@ -18,60 +18,60 @@ from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+    START_MSG = "Hi [{}](tg://user?id={}) 🙂\n\nI'm An Advanced Bot Created For Playing Music In The Voice Chats OF Telegram Groups & Channels.\n\nSend Me /help For More Info !"
     HELP_MSG = [
         ".",
         f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**Hey [{}](tg://user?id={}) Welcome Back To {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} Can Play Music In Your Group's Voice Chat As Well As Channel Voice Chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Assistant Name >> @{ASSISTANT_NAME}\n\nClick Next For Instructions**
 """,
         f"""
-**Setting up**
+**Setting Up**
 
-1) Make bot admin (Group and in channel if use cplay)
-2) Start a voice chat
-3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+1) Make Bot Admin (Group And In Channel If Use Cplay)
+2) Start A Voice Chat
+3) Try /play [Song Name] For The First Time By An Admin
+*) If Userbot Joined Enjoy Music, If Not Add @{ASSISTANT_NAME} To Your Group And Retry
 
 **For Channel Music Play**
-1) Make me admin of your channel 
-2) Send /userbotjoinchannel in linked group
-3) Now send commands in linked group
+1) Make Me Admin Of Your Channel 
+2) Send /userbotjoinchannel In Linked Group
+3) Now Send Commands In Linked Group
 """,
         f"""
 **Commands**
 
 **=>> Song Playing 🎧**
 
-- /play: Play the requestd song
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
-- /splay: Play song via jio saavn
-- /ytplay: Directly play song via Youtube Music
+- /play: Play The Requestd Song
+- /play [YT Url] : Play The Given YT Url
+- /play [Reply Yo Audio]: Play Replied Audio
+- /splay: Play Song Via Jio Saavn
+- /ytplay: Directly Play Song Via Youtube Music
 
 **=>> Playback ⏯**
 
-- /player: Open Settings menu of player
-- /skip: Skips the current track
-- /pause: Pause track
-- /resume: Resumes the paused track
-- /end: Stops media playback
-- /mute: mute song play
-- /unmute: unmute song play
-- /current: Shows the current Playing track
-- /playlist: Shows playlist
+- /player: Open Settings Menu Of Player
+- /skip: Skips The Current Track
+- /pause: Pause Track
+- /resume: Resumes The Paused Track
+- /end: Stops Media Playback
+- /mute: Mute Song Play
+- /unmute: Unmute Song Play
+- /current: Shows The Current Playing Track
+- /playlist: Shows Playlist
 
-*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
+*Player Cmd And All Other Cmds Except /play, /current And /playlist Are Only For Admins Of The Group.
 """,
         f"""
 **=>> Channel Music Play 🛠**
 
-⚪️ For linked group admins only:
+⚪️ For Linked Group Admins Only:
 
-- /cplay [song name] - play song you requested
+- /cplay [Song Name] - Play Song You Requested
 - /csplay [song name] - play song you requested via jio saavn
 - /cplaylist - Show now playing list
 - /cccurrent - Show now playing
