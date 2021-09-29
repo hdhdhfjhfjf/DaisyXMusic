@@ -72,56 +72,56 @@ class Messages:
 ⚪️ For Linked Group Admins Only:
 
 - /cplay [Song Name] - Play Song You Requested
-- /csplay [song name] - play song you requested via jio saavn
-- /cplaylist - Show now playing list
-- /cccurrent - Show now playing
-- /cplayer - open music player settings panel
-- /cpause - pause song play
-- /cresume - resume song play
-- /cskip - play next song
-- /cend - stop music play
-- /cmute - mute song play
-- /mute - mute song play
-- /unmute - mute song play
-- /userbotjoinchannel - invite assistant to your chat
+- /csplay [Song Name] - play Song You Requested Via Jio Saavn
+- /cplaylist - Show Now Playing List
+- /cccurrent - Show Now playing
+- /cplayer - Open Music Player Settings Panel
+- /cpause - Pause Song play
+- /cresume - Resume Song play
+- /cskip - Play Next Song
+- /cend - Stop Music Play
+- /cmute - Mute Song Play
+- /mute - Mute Song Play
+- /unmute - Mute Song Play
+- /userbotjoinchannel - Invite Assistant To Your Chat
 
-channel is also can be used instead of c ( /cplay = /channelplay )
+Channel Is Also Can Be Used Instead OF C ( /cplay = /channelplay )
 
-⚪️ If you donlt like to play in linked group:
+⚪️ If You Donlt Like To Play In Linked Group:
 
 1) Get your channel ID.
-2) Create a group with tittle: Channel Music: your_channel_id
-3) Add bot as Channel admin with full perms
-4) Add @{ASSISTANT_NAME} to the channel as an admin.
-5) Simply send commands in your group. (remember to use /ytplay instead /play)
+2) Create A Group With Tittle: Channel Music: your_channel_id
+3) Add Bot As Channel Admin With Full Perms
+4) Add @{ASSISTANT_NAME} To The Channel As An Admin.
+5) Simply Send Commands In Your Group. (Remember To Use /ytplay Instead /play)
 """,
         f"""
-**=>> More tools 🧑‍🔧**
+**=>> More Tools 🧑‍🔧**
 
 - /musicplayer [on/off]: Enable/Disable Music player
-- /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+- /admincache: Updates Admin Info OF Your Group. Try If Bot Isn't Recognize Admin
+- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot To Your Chat
 """,
         f"""
 **=>> Song Download 🎸**
 
-- /video [song mame]: Download video song from youtube
-- /song [song name]: Download audio song from youtube
-- /saavn [song name]: Download song from saavn
-- /deezer [song name]: Download song from deezer
+- /video [Song Mame]: Download Video Song From Youtube
+- /song [Song Name]: Download Audio Song From Youtube
+- /saavn [Song Name]: Download Song From Saavn
+- /deezer [Song Name]: Download Song From Deezer
 
 **=>> Search Tools 📄**
 
-- /search [song name]: Search youtube for songs
-- /lyrics [song name]: Get song lyrics
+- /search [Song Name]: Search Youtube For Songs
+- /lyrics [Song Name]: Get Song Lyrics
 """,
         f"""
-**=>> Commands for Sudo Users ⚔️**
+**=>> Commands For Sudo Users ⚔️**
 
- - /userbotleaveall - remove assistant from all chats
- - /broadcast <reply to message> - globally brodcast replied message to all chats
- - /pmpermit [on/off] - enable/disable pmpermit message
-*Sudo Users can execute any command in any groups
+ - /userbotleaveall - Remove Assistant From All Chats
+ - /broadcast <reply to message> - Globally Brodcast Replied Message To All Chats
+ - /pmpermit [on/off] - Enable/Disable PMPermit Message
+*Sudo Users Can Execute Any Command In Any Groups
 
 """,
     ]
