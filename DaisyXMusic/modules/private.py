@@ -39,14 +39,10 @@ def _start(client, message):
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup(
             [[
-               InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+               InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
-               InlineKeyboardButton("📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
-               InlineKeyboardButton("💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
-            ],
-            [
-               InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+               InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://T.me/DarkPentester")
            ]]
         ),
         reply_to_message_id=message.message_id,
@@ -56,8 +52,8 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**🔴 {PROJECT_NAME} is online**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}")]])
+        f"""**🔴 {PROJECT_NAME} Is Online**""",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://T.me/DarkPentester")]])
     )
 
 
@@ -96,16 +92,12 @@ def map(pos):
     if pos == 1:
         button = [[InlineKeyboardButton(text="▶️", callback_data="help+2")]]
     elif pos == len(tr.HELP_MSG) - 1:
-        url = f"https://t.me/{SUPPORT_GROUP}"
+        url = f"https://t.me/DarkPentester"
         button = [[
-                    InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                    InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],
                   [
-                    InlineKeyboardButton(text="📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton(text="💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
-                  ],
-                  [
-                    InlineKeyboardButton(text="🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                    InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://T.me/DarkPentester")
                   ],
                   [
                     InlineKeyboardButton(text="◀️", callback_data=f"help+{pos-1}")
@@ -123,6 +115,6 @@ def map(pos):
 @Client.on_message(filters.command("help") & ~filters.private & ~filters.channel)
 async def ghelp(_, message: Message):
     await message.reply_text(
-        f"""**🙋‍♀️ Hello there! I can play music in the voice chats of telegram groups & channels.**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🟡 Click here for help 🟡", url=f"https://t.me/{BOT_USERNAME}?start")]])
+        f"""**Hi Dear 🙂\nI Can Play Music In The Voice Chats OF Telegram Groups & Channels!**""",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("❗️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ʜᴇʟᴘ ❕", url=f"https://t.me/{BOT_USERNAME}?start")]])
     )
