@@ -22,11 +22,11 @@ class Messages:
     HELP_MSG = [
         ".",
         """
-**Hey [{}](tg://user?id={}) Welcome Back To {PROJECT_NAME}
+**Hey Welcome Back To MusicBot
 
-⚪️ {PROJECT_NAME} Can Play Music In Your Group's Voice Chat As Well As Channel Voice Chats
+⚪️ MusicBot Can Play Music In Your Group's Voice Chat As Well As Channel Voice Chats
 
-⚪️ Assistant Name >> @{ASSISTANT_NAME}\n\nClick Next For Instructions**
+⚪️ Assistant Name >> @PlayerSa\n\nClick Next For Instructions**
         """,
         """
 **Setting Up**
